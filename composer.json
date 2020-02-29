@@ -2,7 +2,7 @@
     "name": "nmo/acsmanager",
     "description": "Manage AVSystems UMP ACS",
     "type": "library",
-    "license": "GNU GPLv3",
+    "license": "GPL-3.0-only",
     "authors": [
         {
             "name": "nmo",
