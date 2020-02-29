@@ -1,0 +1,13 @@
+{
+    "name": "nmo/acsmanager",
+    "description": "Manage AVSystems UMP ACS",
+    "type": "library",
+    "license": "GNU GPLv3",
+    "authors": [
+        {
+            "name": "nmo",
+            "email": "niels@mortelmans.org"
+        }
+    ],
+    "require": {}
+}
