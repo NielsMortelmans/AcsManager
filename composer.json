@@ -9,5 +9,8 @@
             "email": "niels@mortelmans.org"
         }
     ],
-    "require": {}
+    "require": {
+        "php": "^7.2",
+        "ext-soap": "^7.2"
+    }
 }
