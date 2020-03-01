@@ -1,4 +1,5 @@
 <?php
+
 namespace Nmo\AcsManager\Types;
 
 class ConnectionRequestResult
@@ -20,8 +21,8 @@ class ConnectionRequestResult
      */
     public function __construct($description, $status)
     {
-      $this->description = $description;
-      $this->status = $status;
+        $this->description = $description;
+        $this->status = $status;
     }
 
     /**
@@ -29,7 +30,7 @@ class ConnectionRequestResult
      */
     public function getDescription()
     {
-      return $this->description;
+        return $this->description;
     }
 
     /**
@@ -38,8 +39,8 @@ class ConnectionRequestResult
      */
     public function setDescription($description)
     {
-      $this->description = $description;
-      return $this;
+        $this->description = $description;
+        return $this;
     }
 
     /**
@@ -47,7 +48,7 @@ class ConnectionRequestResult
      */
     public function getStatus()
     {
-      return $this->status;
+        return $this->status;
     }
 
     /**
@@ -56,8 +57,8 @@ class ConnectionRequestResult
      */
     public function setStatus($status)
     {
-      $this->status = $status;
-      return $this;
+        $this->status = $status;
+        return $this;
     }
 
 }

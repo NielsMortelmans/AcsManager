@@ -1,4 +1,5 @@
 <?php
+
 namespace Nmo\AcsManager\Types;
 
 class findFirmwaresResponse
@@ -9,10 +10,10 @@ class findFirmwaresResponse
      */
     protected $return = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -20,7 +21,7 @@ class findFirmwaresResponse
      */
     public function getReturn()
     {
-      return $this->return;
+        return $this->return;
     }
 
     /**
@@ -29,8 +30,8 @@ class findFirmwaresResponse
      */
     public function setReturn($return)
     {
-      $this->return = $return;
-      return $this;
+        $this->return = $return;
+        return $this;
     }
 
 }

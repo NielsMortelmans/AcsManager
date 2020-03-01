@@ -1,4 +1,5 @@
 <?php
+
 namespace Nmo\AcsManager\Types;
 
 class addDeviceToGroup
@@ -20,8 +21,8 @@ class addDeviceToGroup
      */
     public function __construct($deviceIdentity, $groupName)
     {
-      $this->deviceIdentity = $deviceIdentity;
-      $this->groupName = $groupName;
+        $this->deviceIdentity = $deviceIdentity;
+        $this->groupName = $groupName;
     }
 
     /**
@@ -29,7 +30,7 @@ class addDeviceToGroup
      */
     public function getDeviceIdentity()
     {
-      return $this->deviceIdentity;
+        return $this->deviceIdentity;
     }
 
     /**
@@ -38,8 +39,8 @@ class addDeviceToGroup
      */
     public function setDeviceIdentity($deviceIdentity)
     {
-      $this->deviceIdentity = $deviceIdentity;
-      return $this;
+        $this->deviceIdentity = $deviceIdentity;
+        return $this;
     }
 
     /**
@@ -47,7 +48,7 @@ class addDeviceToGroup
      */
     public function getGroupName()
     {
-      return $this->groupName;
+        return $this->groupName;
     }
 
     /**
@@ -56,8 +57,8 @@ class addDeviceToGroup
      */
     public function setGroupName($groupName)
     {
-      $this->groupName = $groupName;
-      return $this;
+        $this->groupName = $groupName;
+        return $this;
     }
 
 }

@@ -1,5 +1,7 @@
 <?php
 
+namespace Nmo\AcsManager\Types;
+
 class findByPropertyResponse
 {
 
@@ -8,10 +10,10 @@ class findByPropertyResponse
      */
     protected $return = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -19,7 +21,7 @@ class findByPropertyResponse
      */
     public function getReturn()
     {
-      return $this->return;
+        return $this->return;
     }
 
     /**
@@ -28,8 +30,8 @@ class findByPropertyResponse
      */
     public function setReturn($return)
     {
-      $this->return = $return;
-      return $this;
+        $this->return = $return;
+        return $this;
     }
 
 }

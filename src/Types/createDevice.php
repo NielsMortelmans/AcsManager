@@ -25,7 +25,7 @@ class createDevice
      */
     public function __construct($deviceIdentity)
     {
-      $this->deviceIdentity = $deviceIdentity;
+        $this->deviceIdentity = $deviceIdentity;
     }
 
     /**
@@ -33,7 +33,7 @@ class createDevice
      */
     public function getDeviceIdentity()
     {
-      return $this->deviceIdentity;
+        return $this->deviceIdentity;
     }
 
     /**
@@ -42,8 +42,8 @@ class createDevice
      */
     public function setDeviceIdentity($deviceIdentity)
     {
-      $this->deviceIdentity = $deviceIdentity;
-      return $this;
+        $this->deviceIdentity = $deviceIdentity;
+        return $this;
     }
 
     /**
@@ -51,7 +51,7 @@ class createDevice
      */
     public function getAuthRequired()
     {
-      return $this->authRequired;
+        return $this->authRequired;
     }
 
     /**
@@ -60,8 +60,8 @@ class createDevice
      */
     public function setAuthRequired($authRequired)
     {
-      $this->authRequired = $authRequired;
-      return $this;
+        $this->authRequired = $authRequired;
+        return $this;
     }
 
     /**
@@ -69,7 +69,7 @@ class createDevice
      */
     public function getPassword()
     {
-      return $this->password;
+        return $this->password;
     }
 
     /**
@@ -78,8 +78,8 @@ class createDevice
      */
     public function setPassword($password)
     {
-      $this->password = $password;
-      return $this;
+        $this->password = $password;
+        return $this;
     }
 
 }

@@ -13,5 +13,8 @@ use Illuminate\Support\Facades\Facade;
 
 class AcsManager extends Facade
 {
-    protected static function getFacadeAccessor() { return 'acsmanager'; }
+    protected static function getFacadeAccessor()
+    {
+        return 'acsmanager';
+    }
 }

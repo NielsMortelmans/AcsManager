@@ -11,7 +11,10 @@ namespace Nmo\AcsManager\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class Acs extends Facade
+class ACSService extends Facade
 {
-    protected static function getFacadeAccessor() { return 'acsservice'; }
+    protected static function getFacadeAccessor()
+    {
+        return 'acsservice';
+    }
 }

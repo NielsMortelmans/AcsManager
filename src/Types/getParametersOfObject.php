@@ -21,8 +21,8 @@ class getParametersOfObject
      */
     public function __construct($deviceIdentity, $parentObject)
     {
-      $this->deviceIdentity = $deviceIdentity;
-      $this->parentObject = $parentObject;
+        $this->deviceIdentity = $deviceIdentity;
+        $this->parentObject = $parentObject;
     }
 
     /**
@@ -30,7 +30,7 @@ class getParametersOfObject
      */
     public function getDeviceIdentity()
     {
-      return $this->deviceIdentity;
+        return $this->deviceIdentity;
     }
 
     /**
@@ -39,8 +39,8 @@ class getParametersOfObject
      */
     public function setDeviceIdentity($deviceIdentity)
     {
-      $this->deviceIdentity = $deviceIdentity;
-      return $this;
+        $this->deviceIdentity = $deviceIdentity;
+        return $this;
     }
 
     /**
@@ -48,7 +48,7 @@ class getParametersOfObject
      */
     public function getParentObject()
     {
-      return $this->parentObject;
+        return $this->parentObject;
     }
 
     /**
@@ -57,8 +57,8 @@ class getParametersOfObject
      */
     public function setParentObject($parentObject)
     {
-      $this->parentObject = $parentObject;
-      return $this;
+        $this->parentObject = $parentObject;
+        return $this;
     }
 
 }

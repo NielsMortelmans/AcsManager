@@ -10,10 +10,10 @@ class setParametersResponse
      */
     protected $return = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,7 +21,7 @@ class setParametersResponse
      */
     public function getReturn()
     {
-      return $this->return;
+        return $this->return;
     }
 
     /**
@@ -30,8 +30,8 @@ class setParametersResponse
      */
     public function setReturn($return)
     {
-      $this->return = $return;
-      return $this;
+        $this->return = $return;
+        return $this;
     }
 
 }

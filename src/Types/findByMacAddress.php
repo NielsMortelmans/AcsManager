@@ -1,5 +1,7 @@
 <?php
 
+namespace Nmo\AcsManager\Types;
+
 class findByMacAddress
 {
 
@@ -13,7 +15,7 @@ class findByMacAddress
      */
     public function __construct($macAddress)
     {
-      $this->macAddress = $macAddress;
+        $this->macAddress = $macAddress;
     }
 
     /**
@@ -21,7 +23,7 @@ class findByMacAddress
      */
     public function getMacAddress()
     {
-      return $this->macAddress;
+        return $this->macAddress;
     }
 
     /**
@@ -30,8 +32,8 @@ class findByMacAddress
      */
     public function setMacAddress($macAddress)
     {
-      $this->macAddress = $macAddress;
-      return $this;
+        $this->macAddress = $macAddress;
+        return $this;
     }
 
 }

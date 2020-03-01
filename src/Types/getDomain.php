@@ -1,4 +1,5 @@
 <?php
+
 namespace Nmo\AcsManager\Types;
 
 
@@ -15,7 +16,7 @@ class getDomain
      */
     public function __construct($deviceIdentity)
     {
-      $this->deviceIdentity = $deviceIdentity;
+        $this->deviceIdentity = $deviceIdentity;
     }
 
     /**
@@ -23,7 +24,7 @@ class getDomain
      */
     public function getDeviceIdentity()
     {
-      return $this->deviceIdentity;
+        return $this->deviceIdentity;
     }
 
     /**
@@ -32,8 +33,8 @@ class getDomain
      */
     public function setDeviceIdentity($deviceIdentity)
     {
-      $this->deviceIdentity = $deviceIdentity;
-      return $this;
+        $this->deviceIdentity = $deviceIdentity;
+        return $this;
     }
 
 }

@@ -8,10 +8,10 @@ class findActiveWanResponse
      */
     protected $return = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -19,7 +19,7 @@ class findActiveWanResponse
      */
     public function getReturn()
     {
-      return $this->return;
+        return $this->return;
     }
 
     /**
@@ -28,8 +28,8 @@ class findActiveWanResponse
      */
     public function setReturn($return)
     {
-      $this->return = $return;
-      return $this;
+        $this->return = $return;
+        return $this;
     }
 
 }

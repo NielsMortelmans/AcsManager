@@ -1,5 +1,7 @@
 <?php
 
+namespace Nmo\AcsManager\Types;
+
 class setDescription
 {
 
@@ -19,8 +21,8 @@ class setDescription
      */
     public function __construct($deviceIdentity, $description)
     {
-      $this->deviceIdentity = $deviceIdentity;
-      $this->description = $description;
+        $this->deviceIdentity = $deviceIdentity;
+        $this->description = $description;
     }
 
     /**
@@ -28,7 +30,7 @@ class setDescription
      */
     public function getDeviceIdentity()
     {
-      return $this->deviceIdentity;
+        return $this->deviceIdentity;
     }
 
     /**
@@ -37,8 +39,8 @@ class setDescription
      */
     public function setDeviceIdentity($deviceIdentity)
     {
-      $this->deviceIdentity = $deviceIdentity;
-      return $this;
+        $this->deviceIdentity = $deviceIdentity;
+        return $this;
     }
 
     /**
@@ -46,7 +48,7 @@ class setDescription
      */
     public function getDescription()
     {
-      return $this->description;
+        return $this->description;
     }
 
     /**
@@ -55,8 +57,8 @@ class setDescription
      */
     public function setDescription($description)
     {
-      $this->description = $description;
-      return $this;
+        $this->description = $description;
+        return $this;
     }
 
 }

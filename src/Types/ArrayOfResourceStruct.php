@@ -1,4 +1,5 @@
 <?php
+
 namespace Nmo\AcsManager\Types;
 
 class ArrayOfResourceStruct implements \ArrayAccess, \Iterator, \Countable
@@ -9,10 +10,10 @@ class ArrayOfResourceStruct implements \ArrayAccess, \Iterator, \Countable
      */
     protected $ResourceStruct = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -20,7 +21,7 @@ class ArrayOfResourceStruct implements \ArrayAccess, \Iterator, \Countable
      */
     public function getResourceStruct()
     {
-      return $this->ResourceStruct;
+        return $this->ResourceStruct;
     }
 
     /**
@@ -29,8 +30,8 @@ class ArrayOfResourceStruct implements \ArrayAccess, \Iterator, \Countable
      */
     public function setResourceStruct(array $ResourceStruct = null)
     {
-      $this->ResourceStruct = $ResourceStruct;
-      return $this;
+        $this->ResourceStruct = $ResourceStruct;
+        return $this;
     }
 
     /**
@@ -41,7 +42,7 @@ class ArrayOfResourceStruct implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetExists($offset)
     {
-      return isset($this->ResourceStruct[$offset]);
+        return isset($this->ResourceStruct[$offset]);
     }
 
     /**
@@ -52,7 +53,7 @@ class ArrayOfResourceStruct implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetGet($offset)
     {
-      return $this->ResourceStruct[$offset];
+        return $this->ResourceStruct[$offset];
     }
 
     /**
@@ -64,11 +65,11 @@ class ArrayOfResourceStruct implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetSet($offset, $value)
     {
-      if (!isset($offset)) {
-        $this->ResourceStruct[] = $value;
-      } else {
-        $this->ResourceStruct[$offset] = $value;
-      }
+        if (!isset($offset)) {
+            $this->ResourceStruct[] = $value;
+        } else {
+            $this->ResourceStruct[$offset] = $value;
+        }
     }
 
     /**
@@ -79,7 +80,7 @@ class ArrayOfResourceStruct implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetUnset($offset)
     {
-      unset($this->ResourceStruct[$offset]);
+        unset($this->ResourceStruct[$offset]);
     }
 
     /**
@@ -89,7 +90,7 @@ class ArrayOfResourceStruct implements \ArrayAccess, \Iterator, \Countable
      */
     public function current()
     {
-      return current($this->ResourceStruct);
+        return current($this->ResourceStruct);
     }
 
     /**
@@ -100,7 +101,7 @@ class ArrayOfResourceStruct implements \ArrayAccess, \Iterator, \Countable
      */
     public function next()
     {
-      next($this->ResourceStruct);
+        next($this->ResourceStruct);
     }
 
     /**
@@ -110,7 +111,7 @@ class ArrayOfResourceStruct implements \ArrayAccess, \Iterator, \Countable
      */
     public function key()
     {
-      return key($this->ResourceStruct);
+        return key($this->ResourceStruct);
     }
 
     /**
@@ -120,7 +121,7 @@ class ArrayOfResourceStruct implements \ArrayAccess, \Iterator, \Countable
      */
     public function valid()
     {
-      return $this->key() !== null;
+        return $this->key() !== null;
     }
 
     /**
@@ -131,7 +132,7 @@ class ArrayOfResourceStruct implements \ArrayAccess, \Iterator, \Countable
      */
     public function rewind()
     {
-      reset($this->ResourceStruct);
+        reset($this->ResourceStruct);
     }
 
     /**
@@ -141,7 +142,7 @@ class ArrayOfResourceStruct implements \ArrayAccess, \Iterator, \Countable
      */
     public function count()
     {
-      return count($this->ResourceStruct);
+        return count($this->ResourceStruct);
     }
 
 }

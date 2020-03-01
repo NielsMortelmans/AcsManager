@@ -1,5 +1,7 @@
 <?php
 
+namespace Nmo\AcsManager\Types;
+
 class findBySerialNumber
 {
 
@@ -13,7 +15,7 @@ class findBySerialNumber
      */
     public function __construct($serialNumber)
     {
-      $this->serialNumber = $serialNumber;
+        $this->serialNumber = $serialNumber;
     }
 
     /**
@@ -21,7 +23,7 @@ class findBySerialNumber
      */
     public function getSerialNumber()
     {
-      return $this->serialNumber;
+        return $this->serialNumber;
     }
 
     /**
@@ -30,8 +32,8 @@ class findBySerialNumber
      */
     public function setSerialNumber($serialNumber)
     {
-      $this->serialNumber = $serialNumber;
-      return $this;
+        $this->serialNumber = $serialNumber;
+        return $this;
     }
 
 }

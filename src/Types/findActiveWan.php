@@ -1,5 +1,8 @@
 <?php
 
+namespace Nmo\AcsManager\Types;
+
+
 class findActiveWan
 {
 
@@ -13,7 +16,7 @@ class findActiveWan
      */
     public function __construct($deviceIdentity)
     {
-      $this->deviceIdentity = $deviceIdentity;
+        $this->deviceIdentity = $deviceIdentity;
     }
 
     /**
@@ -21,7 +24,7 @@ class findActiveWan
      */
     public function getDeviceIdentity()
     {
-      return $this->deviceIdentity;
+        return $this->deviceIdentity;
     }
 
     /**
@@ -30,8 +33,8 @@ class findActiveWan
      */
     public function setDeviceIdentity($deviceIdentity)
     {
-      $this->deviceIdentity = $deviceIdentity;
-      return $this;
+        $this->deviceIdentity = $deviceIdentity;
+        return $this;
     }
 
 }

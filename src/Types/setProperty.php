@@ -27,9 +27,9 @@ class setProperty
      */
     public function __construct($deviceIdentity, $propertyName, $propertyValue)
     {
-      $this->deviceIdentity = $deviceIdentity;
-      $this->propertyName = $propertyName;
-      $this->propertyValue = $propertyValue;
+        $this->deviceIdentity = $deviceIdentity;
+        $this->propertyName = $propertyName;
+        $this->propertyValue = $propertyValue;
     }
 
     /**
@@ -37,7 +37,7 @@ class setProperty
      */
     public function getDeviceIdentity()
     {
-      return $this->deviceIdentity;
+        return $this->deviceIdentity;
     }
 
     /**
@@ -46,8 +46,8 @@ class setProperty
      */
     public function setDeviceIdentity($deviceIdentity)
     {
-      $this->deviceIdentity = $deviceIdentity;
-      return $this;
+        $this->deviceIdentity = $deviceIdentity;
+        return $this;
     }
 
     /**
@@ -55,7 +55,7 @@ class setProperty
      */
     public function getPropertyName()
     {
-      return $this->propertyName;
+        return $this->propertyName;
     }
 
     /**
@@ -64,8 +64,8 @@ class setProperty
      */
     public function setPropertyName($propertyName)
     {
-      $this->propertyName = $propertyName;
-      return $this;
+        $this->propertyName = $propertyName;
+        return $this;
     }
 
     /**
@@ -73,7 +73,7 @@ class setProperty
      */
     public function getPropertyValue()
     {
-      return $this->propertyValue;
+        return $this->propertyValue;
     }
 
     /**
@@ -82,8 +82,8 @@ class setProperty
      */
     public function setPropertyValue($propertyValue)
     {
-      $this->propertyValue = $propertyValue;
-      return $this;
+        $this->propertyValue = $propertyValue;
+        return $this;
     }
 
 }

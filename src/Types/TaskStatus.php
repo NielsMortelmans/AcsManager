@@ -21,8 +21,8 @@ class TaskStatus
      */
     public function __construct($exitCode, $summary)
     {
-      $this->exitCode = $exitCode;
-      $this->summary = $summary;
+        $this->exitCode = $exitCode;
+        $this->summary = $summary;
     }
 
     /**
@@ -30,7 +30,7 @@ class TaskStatus
      */
     public function getExitCode()
     {
-      return $this->exitCode;
+        return $this->exitCode;
     }
 
     /**
@@ -39,8 +39,8 @@ class TaskStatus
      */
     public function setExitCode($exitCode)
     {
-      $this->exitCode = $exitCode;
-      return $this;
+        $this->exitCode = $exitCode;
+        return $this;
     }
 
     /**
@@ -48,7 +48,7 @@ class TaskStatus
      */
     public function getSummary()
     {
-      return $this->summary;
+        return $this->summary;
     }
 
     /**
@@ -57,8 +57,8 @@ class TaskStatus
      */
     public function setSummary($summary)
     {
-      $this->summary = $summary;
-      return $this;
+        $this->summary = $summary;
+        return $this;
     }
 
 }

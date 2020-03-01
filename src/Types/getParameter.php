@@ -1,6 +1,6 @@
 <?php
 
-namespace Nmo\AcsManager;
+namespace Nmo\AcsManager\Types;
 
 class getParameter
 {
@@ -21,8 +21,8 @@ class getParameter
      */
     public function __construct($deviceIdentity, $parameterName)
     {
-      $this->deviceIdentity = $deviceIdentity;
-      $this->parameterName = $parameterName;
+        $this->deviceIdentity = $deviceIdentity;
+        $this->parameterName = $parameterName;
     }
 
     /**
@@ -30,7 +30,7 @@ class getParameter
      */
     public function getDeviceIdentity()
     {
-      return $this->deviceIdentity;
+        return $this->deviceIdentity;
     }
 
     /**
@@ -39,8 +39,8 @@ class getParameter
      */
     public function setDeviceIdentity($deviceIdentity)
     {
-      $this->deviceIdentity = $deviceIdentity;
-      return $this;
+        $this->deviceIdentity = $deviceIdentity;
+        return $this;
     }
 
     /**
@@ -48,7 +48,7 @@ class getParameter
      */
     public function getParameterName()
     {
-      return $this->parameterName;
+        return $this->parameterName;
     }
 
     /**
@@ -57,8 +57,8 @@ class getParameter
      */
     public function setParameterName($parameterName)
     {
-      $this->parameterName = $parameterName;
-      return $this;
+        $this->parameterName = $parameterName;
+        return $this;
     }
 
 }

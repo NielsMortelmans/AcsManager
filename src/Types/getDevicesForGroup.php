@@ -1,4 +1,5 @@
 <?php
+
 namespace Nmo\AcsManager\Types;
 
 class getDevicesForGroup
@@ -25,8 +26,8 @@ class getDevicesForGroup
      */
     public function __construct($groupName, $entryCount)
     {
-      $this->groupName = $groupName;
-      $this->entryCount = $entryCount;
+        $this->groupName = $groupName;
+        $this->entryCount = $entryCount;
     }
 
     /**
@@ -34,7 +35,7 @@ class getDevicesForGroup
      */
     public function getGroupName()
     {
-      return $this->groupName;
+        return $this->groupName;
     }
 
     /**
@@ -43,8 +44,8 @@ class getDevicesForGroup
      */
     public function setGroupName($groupName)
     {
-      $this->groupName = $groupName;
-      return $this;
+        $this->groupName = $groupName;
+        return $this;
     }
 
     /**
@@ -52,7 +53,7 @@ class getDevicesForGroup
      */
     public function getAfterDeviceIdentity()
     {
-      return $this->afterDeviceIdentity;
+        return $this->afterDeviceIdentity;
     }
 
     /**
@@ -61,8 +62,8 @@ class getDevicesForGroup
      */
     public function setAfterDeviceIdentity($afterDeviceIdentity)
     {
-      $this->afterDeviceIdentity = $afterDeviceIdentity;
-      return $this;
+        $this->afterDeviceIdentity = $afterDeviceIdentity;
+        return $this;
     }
 
     /**
@@ -70,7 +71,7 @@ class getDevicesForGroup
      */
     public function getEntryCount()
     {
-      return $this->entryCount;
+        return $this->entryCount;
     }
 
     /**
@@ -79,8 +80,8 @@ class getDevicesForGroup
      */
     public function setEntryCount($entryCount)
     {
-      $this->entryCount = $entryCount;
-      return $this;
+        $this->entryCount = $entryCount;
+        return $this;
     }
 
 }

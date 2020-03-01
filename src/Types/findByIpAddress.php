@@ -1,5 +1,7 @@
 <?php
 
+namespace Nmo\AcsManager\Types;
+
 class findByIpAddress
 {
 
@@ -13,7 +15,7 @@ class findByIpAddress
      */
     public function __construct($ipAddress)
     {
-      $this->ipAddress = $ipAddress;
+        $this->ipAddress = $ipAddress;
     }
 
     /**
@@ -21,7 +23,7 @@ class findByIpAddress
      */
     public function getIpAddress()
     {
-      return $this->ipAddress;
+        return $this->ipAddress;
     }
 
     /**
@@ -30,8 +32,8 @@ class findByIpAddress
      */
     public function setIpAddress($ipAddress)
     {
-      $this->ipAddress = $ipAddress;
-      return $this;
+        $this->ipAddress = $ipAddress;
+        return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class connectionRequestSync
      */
     public function __construct($deviceIdentity)
     {
-      $this->deviceIdentity = $deviceIdentity;
+        $this->deviceIdentity = $deviceIdentity;
     }
 
     /**
@@ -23,7 +23,7 @@ class connectionRequestSync
      */
     public function getDeviceIdentity()
     {
-      return $this->deviceIdentity;
+        return $this->deviceIdentity;
     }
 
     /**
@@ -32,8 +32,8 @@ class connectionRequestSync
      */
     public function setDeviceIdentity($deviceIdentity)
     {
-      $this->deviceIdentity = $deviceIdentity;
-      return $this;
+        $this->deviceIdentity = $deviceIdentity;
+        return $this;
     }
 
 }

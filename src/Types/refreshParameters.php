@@ -1,4 +1,5 @@
 <?php
+
 namespace Nmo\AcsManager\Types;
 
 class refreshParameters
@@ -20,8 +21,8 @@ class refreshParameters
      */
     public function __construct($deviceIdentity, $parameterNames)
     {
-      $this->deviceIdentity = $deviceIdentity;
-      $this->parameterNames = $parameterNames;
+        $this->deviceIdentity = $deviceIdentity;
+        $this->parameterNames = $parameterNames;
     }
 
     /**
@@ -29,7 +30,7 @@ class refreshParameters
      */
     public function getDeviceIdentity()
     {
-      return $this->deviceIdentity;
+        return $this->deviceIdentity;
     }
 
     /**
@@ -38,8 +39,8 @@ class refreshParameters
      */
     public function setDeviceIdentity($deviceIdentity)
     {
-      $this->deviceIdentity = $deviceIdentity;
-      return $this;
+        $this->deviceIdentity = $deviceIdentity;
+        return $this;
     }
 
     /**
@@ -47,7 +48,7 @@ class refreshParameters
      */
     public function getParameterNames()
     {
-      return $this->parameterNames;
+        return $this->parameterNames;
     }
 
     /**
@@ -56,8 +57,8 @@ class refreshParameters
      */
     public function setParameterNames($parameterNames)
     {
-      $this->parameterNames = $parameterNames;
-      return $this;
+        $this->parameterNames = $parameterNames;
+        return $this;
     }
 
 }

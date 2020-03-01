@@ -10,10 +10,10 @@ class string2stringLinkedHashMap
      */
     protected $entry = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,7 +21,7 @@ class string2stringLinkedHashMap
      */
     public function getEntry()
     {
-      return $this->entry;
+        return $this->entry;
     }
 
     /**
@@ -30,8 +30,8 @@ class string2stringLinkedHashMap
      */
     public function setEntry(array $entry = null)
     {
-      $this->entry = $entry;
-      return $this;
+        $this->entry = $entry;
+        return $this;
     }
 
 }

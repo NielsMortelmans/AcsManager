@@ -1,4 +1,5 @@
 <?php
+
 namespace Nmo\AcsManager\Types;
 
 class removeProperty
@@ -20,8 +21,8 @@ class removeProperty
      */
     public function __construct($deviceIdentity, $propertyName)
     {
-      $this->deviceIdentity = $deviceIdentity;
-      $this->propertyName = $propertyName;
+        $this->deviceIdentity = $deviceIdentity;
+        $this->propertyName = $propertyName;
     }
 
     /**
@@ -29,7 +30,7 @@ class removeProperty
      */
     public function getDeviceIdentity()
     {
-      return $this->deviceIdentity;
+        return $this->deviceIdentity;
     }
 
     /**
@@ -38,8 +39,8 @@ class removeProperty
      */
     public function setDeviceIdentity($deviceIdentity)
     {
-      $this->deviceIdentity = $deviceIdentity;
-      return $this;
+        $this->deviceIdentity = $deviceIdentity;
+        return $this;
     }
 
     /**
@@ -47,7 +48,7 @@ class removeProperty
      */
     public function getPropertyName()
     {
-      return $this->propertyName;
+        return $this->propertyName;
     }
 
     /**
@@ -56,8 +57,8 @@ class removeProperty
      */
     public function setPropertyName($propertyName)
     {
-      $this->propertyName = $propertyName;
-      return $this;
+        $this->propertyName = $propertyName;
+        return $this;
     }
 
 }

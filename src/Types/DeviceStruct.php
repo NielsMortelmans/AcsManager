@@ -69,16 +69,16 @@ class DeviceStruct
      */
     public function __construct(\DateTime $creationTime, $currentWanIP, $hardwareVersion, \DateTime $lastVisitTime, $logLevel, $modelName, $oui, $properties, $serialNumber, $softwareVersion)
     {
-      $this->creationTime = $creationTime->format(\DateTime::ATOM);
-      $this->currentWanIP = $currentWanIP;
-      $this->hardwareVersion = $hardwareVersion;
-      $this->lastVisitTime = $lastVisitTime->format(\DateTime::ATOM);
-      $this->logLevel = $logLevel;
-      $this->modelName = $modelName;
-      $this->oui = $oui;
-      $this->properties = $properties;
-      $this->serialNumber = $serialNumber;
-      $this->softwareVersion = $softwareVersion;
+        $this->creationTime = $creationTime->format(\DateTime::ATOM);
+        $this->currentWanIP = $currentWanIP;
+        $this->hardwareVersion = $hardwareVersion;
+        $this->lastVisitTime = $lastVisitTime->format(\DateTime::ATOM);
+        $this->logLevel = $logLevel;
+        $this->modelName = $modelName;
+        $this->oui = $oui;
+        $this->properties = $properties;
+        $this->serialNumber = $serialNumber;
+        $this->softwareVersion = $softwareVersion;
     }
 
     /**
@@ -86,15 +86,15 @@ class DeviceStruct
      */
     public function getCreationTime()
     {
-      if ($this->creationTime == null) {
-        return null;
-      } else {
-        try {
-          return new \DateTime($this->creationTime);
-        } catch (\Exception $e) {
-          return false;
+        if ($this->creationTime == null) {
+            return null;
+        } else {
+            try {
+                return new \DateTime($this->creationTime);
+            } catch (\Exception $e) {
+                return false;
+            }
         }
-      }
     }
 
     /**
@@ -103,8 +103,8 @@ class DeviceStruct
      */
     public function setCreationTime(\DateTime $creationTime)
     {
-      $this->creationTime = $creationTime->format(\DateTime::ATOM);
-      return $this;
+        $this->creationTime = $creationTime->format(\DateTime::ATOM);
+        return $this;
     }
 
     /**
@@ -112,7 +112,7 @@ class DeviceStruct
      */
     public function getCurrentWanIP()
     {
-      return $this->currentWanIP;
+        return $this->currentWanIP;
     }
 
     /**
@@ -121,8 +121,8 @@ class DeviceStruct
      */
     public function setCurrentWanIP($currentWanIP)
     {
-      $this->currentWanIP = $currentWanIP;
-      return $this;
+        $this->currentWanIP = $currentWanIP;
+        return $this;
     }
 
     /**
@@ -130,7 +130,7 @@ class DeviceStruct
      */
     public function getHardwareVersion()
     {
-      return $this->hardwareVersion;
+        return $this->hardwareVersion;
     }
 
     /**
@@ -139,8 +139,8 @@ class DeviceStruct
      */
     public function setHardwareVersion($hardwareVersion)
     {
-      $this->hardwareVersion = $hardwareVersion;
-      return $this;
+        $this->hardwareVersion = $hardwareVersion;
+        return $this;
     }
 
     /**
@@ -148,15 +148,15 @@ class DeviceStruct
      */
     public function getLastVisitTime()
     {
-      if ($this->lastVisitTime == null) {
-        return null;
-      } else {
-        try {
-          return new \DateTime($this->lastVisitTime);
-        } catch (\Exception $e) {
-          return false;
+        if ($this->lastVisitTime == null) {
+            return null;
+        } else {
+            try {
+                return new \DateTime($this->lastVisitTime);
+            } catch (\Exception $e) {
+                return false;
+            }
         }
-      }
     }
 
     /**
@@ -165,8 +165,8 @@ class DeviceStruct
      */
     public function setLastVisitTime(\DateTime $lastVisitTime)
     {
-      $this->lastVisitTime = $lastVisitTime->format(\DateTime::ATOM);
-      return $this;
+        $this->lastVisitTime = $lastVisitTime->format(\DateTime::ATOM);
+        return $this;
     }
 
     /**
@@ -174,7 +174,7 @@ class DeviceStruct
      */
     public function getLogLevel()
     {
-      return $this->logLevel;
+        return $this->logLevel;
     }
 
     /**
@@ -183,8 +183,8 @@ class DeviceStruct
      */
     public function setLogLevel($logLevel)
     {
-      $this->logLevel = $logLevel;
-      return $this;
+        $this->logLevel = $logLevel;
+        return $this;
     }
 
     /**
@@ -192,7 +192,7 @@ class DeviceStruct
      */
     public function getModelName()
     {
-      return $this->modelName;
+        return $this->modelName;
     }
 
     /**
@@ -201,8 +201,8 @@ class DeviceStruct
      */
     public function setModelName($modelName)
     {
-      $this->modelName = $modelName;
-      return $this;
+        $this->modelName = $modelName;
+        return $this;
     }
 
     /**
@@ -210,7 +210,7 @@ class DeviceStruct
      */
     public function getOui()
     {
-      return $this->oui;
+        return $this->oui;
     }
 
     /**
@@ -219,8 +219,8 @@ class DeviceStruct
      */
     public function setOui($oui)
     {
-      $this->oui = $oui;
-      return $this;
+        $this->oui = $oui;
+        return $this;
     }
 
     /**
@@ -228,7 +228,7 @@ class DeviceStruct
      */
     public function getProperties()
     {
-      return $this->properties;
+        return $this->properties;
     }
 
     /**
@@ -237,8 +237,8 @@ class DeviceStruct
      */
     public function setProperties($properties)
     {
-      $this->properties = $properties;
-      return $this;
+        $this->properties = $properties;
+        return $this;
     }
 
     /**
@@ -246,7 +246,7 @@ class DeviceStruct
      */
     public function getSerialNumber()
     {
-      return $this->serialNumber;
+        return $this->serialNumber;
     }
 
     /**
@@ -255,8 +255,8 @@ class DeviceStruct
      */
     public function setSerialNumber($serialNumber)
     {
-      $this->serialNumber = $serialNumber;
-      return $this;
+        $this->serialNumber = $serialNumber;
+        return $this;
     }
 
     /**
@@ -264,7 +264,7 @@ class DeviceStruct
      */
     public function getSoftwareVersion()
     {
-      return $this->softwareVersion;
+        return $this->softwareVersion;
     }
 
     /**
@@ -273,8 +273,8 @@ class DeviceStruct
      */
     public function setSoftwareVersion($softwareVersion)
     {
-      $this->softwareVersion = $softwareVersion;
-      return $this;
+        $this->softwareVersion = $softwareVersion;
+        return $this;
     }
 
 }

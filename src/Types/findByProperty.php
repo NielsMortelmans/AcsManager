@@ -1,5 +1,7 @@
 <?php
 
+namespace Nmo\AcsManager\Types;
+
 class findByProperty
 {
 
@@ -19,8 +21,8 @@ class findByProperty
      */
     public function __construct($propertyName, $propertyValue)
     {
-      $this->propertyName = $propertyName;
-      $this->propertyValue = $propertyValue;
+        $this->propertyName = $propertyName;
+        $this->propertyValue = $propertyValue;
     }
 
     /**
@@ -28,7 +30,7 @@ class findByProperty
      */
     public function getPropertyName()
     {
-      return $this->propertyName;
+        return $this->propertyName;
     }
 
     /**
@@ -37,8 +39,8 @@ class findByProperty
      */
     public function setPropertyName($propertyName)
     {
-      $this->propertyName = $propertyName;
-      return $this;
+        $this->propertyName = $propertyName;
+        return $this;
     }
 
     /**
@@ -46,7 +48,7 @@ class findByProperty
      */
     public function getPropertyValue()
     {
-      return $this->propertyValue;
+        return $this->propertyValue;
     }
 
     /**
@@ -55,8 +57,8 @@ class findByProperty
      */
     public function setPropertyValue($propertyValue)
     {
-      $this->propertyValue = $propertyValue;
-      return $this;
+        $this->propertyValue = $propertyValue;
+        return $this;
     }
 
 }

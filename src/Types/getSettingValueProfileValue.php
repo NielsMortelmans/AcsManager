@@ -21,8 +21,8 @@ class getSettingValueProfileValue
      */
     public function __construct($deviceIdentity, $propertyName)
     {
-      $this->deviceIdentity = $deviceIdentity;
-      $this->propertyName = $propertyName;
+        $this->deviceIdentity = $deviceIdentity;
+        $this->propertyName = $propertyName;
     }
 
     /**
@@ -30,7 +30,7 @@ class getSettingValueProfileValue
      */
     public function getDeviceIdentity()
     {
-      return $this->deviceIdentity;
+        return $this->deviceIdentity;
     }
 
     /**
@@ -39,8 +39,8 @@ class getSettingValueProfileValue
      */
     public function setDeviceIdentity($deviceIdentity)
     {
-      $this->deviceIdentity = $deviceIdentity;
-      return $this;
+        $this->deviceIdentity = $deviceIdentity;
+        return $this;
     }
 
     /**
@@ -48,7 +48,7 @@ class getSettingValueProfileValue
      */
     public function getPropertyName()
     {
-      return $this->propertyName;
+        return $this->propertyName;
     }
 
     /**
@@ -57,8 +57,8 @@ class getSettingValueProfileValue
      */
     public function setPropertyName($propertyName)
     {
-      $this->propertyName = $propertyName;
-      return $this;
+        $this->propertyName = $propertyName;
+        return $this;
     }
 
 }

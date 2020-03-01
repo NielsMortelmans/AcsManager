@@ -1,4 +1,5 @@
 <?php
+
 namespace Nmo\AcsManager\Types;
 
 class refreshParametersOfObject
@@ -20,8 +21,8 @@ class refreshParametersOfObject
      */
     public function __construct($deviceIdentity, $parentObject)
     {
-      $this->deviceIdentity = $deviceIdentity;
-      $this->parentObject = $parentObject;
+        $this->deviceIdentity = $deviceIdentity;
+        $this->parentObject = $parentObject;
     }
 
     /**
@@ -29,7 +30,7 @@ class refreshParametersOfObject
      */
     public function getDeviceIdentity()
     {
-      return $this->deviceIdentity;
+        return $this->deviceIdentity;
     }
 
     /**
@@ -38,8 +39,8 @@ class refreshParametersOfObject
      */
     public function setDeviceIdentity($deviceIdentity)
     {
-      $this->deviceIdentity = $deviceIdentity;
-      return $this;
+        $this->deviceIdentity = $deviceIdentity;
+        return $this;
     }
 
     /**
@@ -47,7 +48,7 @@ class refreshParametersOfObject
      */
     public function getParentObject()
     {
-      return $this->parentObject;
+        return $this->parentObject;
     }
 
     /**
@@ -56,8 +57,8 @@ class refreshParametersOfObject
      */
     public function setParentObject($parentObject)
     {
-      $this->parentObject = $parentObject;
-      return $this;
+        $this->parentObject = $parentObject;
+        return $this;
     }
 
 }

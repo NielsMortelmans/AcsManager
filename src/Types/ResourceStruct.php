@@ -1,4 +1,5 @@
 <?php
+
 namespace Nmo\AcsManager\Types;
 
 class ResourceStruct
@@ -92,20 +93,20 @@ class ResourceStruct
      */
     public function __construct(\DateTime $addDate, $category, $description, $device, $domain, $fileSize, $fileType, $filename, $id, $location, $name, $password, $properties, $username)
     {
-      $this->addDate = $addDate->format(\DateTime::ATOM);
-      $this->category = $category;
-      $this->description = $description;
-      $this->device = $device;
-      $this->domain = $domain;
-      $this->fileSize = $fileSize;
-      $this->fileType = $fileType;
-      $this->filename = $filename;
-      $this->id = $id;
-      $this->location = $location;
-      $this->name = $name;
-      $this->password = $password;
-      $this->properties = $properties;
-      $this->username = $username;
+        $this->addDate = $addDate->format(\DateTime::ATOM);
+        $this->category = $category;
+        $this->description = $description;
+        $this->device = $device;
+        $this->domain = $domain;
+        $this->fileSize = $fileSize;
+        $this->fileType = $fileType;
+        $this->filename = $filename;
+        $this->id = $id;
+        $this->location = $location;
+        $this->name = $name;
+        $this->password = $password;
+        $this->properties = $properties;
+        $this->username = $username;
     }
 
     /**
@@ -113,15 +114,15 @@ class ResourceStruct
      */
     public function getAddDate()
     {
-      if ($this->addDate == null) {
-        return null;
-      } else {
-        try {
-          return new \DateTime($this->addDate);
-        } catch (\Exception $e) {
-          return false;
+        if ($this->addDate == null) {
+            return null;
+        } else {
+            try {
+                return new \DateTime($this->addDate);
+            } catch (\Exception $e) {
+                return false;
+            }
         }
-      }
     }
 
     /**
@@ -130,8 +131,8 @@ class ResourceStruct
      */
     public function setAddDate(\DateTime $addDate)
     {
-      $this->addDate = $addDate->format(\DateTime::ATOM);
-      return $this;
+        $this->addDate = $addDate->format(\DateTime::ATOM);
+        return $this;
     }
 
     /**
@@ -139,7 +140,7 @@ class ResourceStruct
      */
     public function getCategory()
     {
-      return $this->category;
+        return $this->category;
     }
 
     /**
@@ -148,8 +149,8 @@ class ResourceStruct
      */
     public function setCategory($category)
     {
-      $this->category = $category;
-      return $this;
+        $this->category = $category;
+        return $this;
     }
 
     /**
@@ -157,7 +158,7 @@ class ResourceStruct
      */
     public function getDescription()
     {
-      return $this->description;
+        return $this->description;
     }
 
     /**
@@ -166,8 +167,8 @@ class ResourceStruct
      */
     public function setDescription($description)
     {
-      $this->description = $description;
-      return $this;
+        $this->description = $description;
+        return $this;
     }
 
     /**
@@ -175,7 +176,7 @@ class ResourceStruct
      */
     public function getDevice()
     {
-      return $this->device;
+        return $this->device;
     }
 
     /**
@@ -184,8 +185,8 @@ class ResourceStruct
      */
     public function setDevice($device)
     {
-      $this->device = $device;
-      return $this;
+        $this->device = $device;
+        return $this;
     }
 
     /**
@@ -193,7 +194,7 @@ class ResourceStruct
      */
     public function getDomain()
     {
-      return $this->domain;
+        return $this->domain;
     }
 
     /**
@@ -202,8 +203,8 @@ class ResourceStruct
      */
     public function setDomain($domain)
     {
-      $this->domain = $domain;
-      return $this;
+        $this->domain = $domain;
+        return $this;
     }
 
     /**
@@ -211,7 +212,7 @@ class ResourceStruct
      */
     public function getFileSize()
     {
-      return $this->fileSize;
+        return $this->fileSize;
     }
 
     /**
@@ -220,8 +221,8 @@ class ResourceStruct
      */
     public function setFileSize($fileSize)
     {
-      $this->fileSize = $fileSize;
-      return $this;
+        $this->fileSize = $fileSize;
+        return $this;
     }
 
     /**
@@ -229,7 +230,7 @@ class ResourceStruct
      */
     public function getFileType()
     {
-      return $this->fileType;
+        return $this->fileType;
     }
 
     /**
@@ -238,8 +239,8 @@ class ResourceStruct
      */
     public function setFileType($fileType)
     {
-      $this->fileType = $fileType;
-      return $this;
+        $this->fileType = $fileType;
+        return $this;
     }
 
     /**
@@ -247,7 +248,7 @@ class ResourceStruct
      */
     public function getFilename()
     {
-      return $this->filename;
+        return $this->filename;
     }
 
     /**
@@ -256,8 +257,8 @@ class ResourceStruct
      */
     public function setFilename($filename)
     {
-      $this->filename = $filename;
-      return $this;
+        $this->filename = $filename;
+        return $this;
     }
 
     /**
@@ -265,7 +266,7 @@ class ResourceStruct
      */
     public function getId()
     {
-      return $this->id;
+        return $this->id;
     }
 
     /**
@@ -274,8 +275,8 @@ class ResourceStruct
      */
     public function setId($id)
     {
-      $this->id = $id;
-      return $this;
+        $this->id = $id;
+        return $this;
     }
 
     /**
@@ -283,7 +284,7 @@ class ResourceStruct
      */
     public function getLocation()
     {
-      return $this->location;
+        return $this->location;
     }
 
     /**
@@ -292,8 +293,8 @@ class ResourceStruct
      */
     public function setLocation($location)
     {
-      $this->location = $location;
-      return $this;
+        $this->location = $location;
+        return $this;
     }
 
     /**
@@ -301,7 +302,7 @@ class ResourceStruct
      */
     public function getName()
     {
-      return $this->name;
+        return $this->name;
     }
 
     /**
@@ -310,8 +311,8 @@ class ResourceStruct
      */
     public function setName($name)
     {
-      $this->name = $name;
-      return $this;
+        $this->name = $name;
+        return $this;
     }
 
     /**
@@ -319,7 +320,7 @@ class ResourceStruct
      */
     public function getPassword()
     {
-      return $this->password;
+        return $this->password;
     }
 
     /**
@@ -328,8 +329,8 @@ class ResourceStruct
      */
     public function setPassword($password)
     {
-      $this->password = $password;
-      return $this;
+        $this->password = $password;
+        return $this;
     }
 
     /**
@@ -337,7 +338,7 @@ class ResourceStruct
      */
     public function getProperties()
     {
-      return $this->properties;
+        return $this->properties;
     }
 
     /**
@@ -346,8 +347,8 @@ class ResourceStruct
      */
     public function setProperties($properties)
     {
-      $this->properties = $properties;
-      return $this;
+        $this->properties = $properties;
+        return $this;
     }
 
     /**
@@ -355,7 +356,7 @@ class ResourceStruct
      */
     public function getUsername()
     {
-      return $this->username;
+        return $this->username;
     }
 
     /**
@@ -364,8 +365,8 @@ class ResourceStruct
      */
     public function setUsername($username)
     {
-      $this->username = $username;
-      return $this;
+        $this->username = $username;
+        return $this;
     }
 
 }

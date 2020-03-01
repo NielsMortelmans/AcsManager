@@ -1,4 +1,5 @@
 <?php
+
 namespace Nmo\AcsManager\Types;
 
 class getDeviceResponse
@@ -14,7 +15,7 @@ class getDeviceResponse
      */
     public function __construct($return)
     {
-      $this->return = $return;
+        $this->return = $return;
     }
 
     /**
@@ -22,7 +23,7 @@ class getDeviceResponse
      */
     public function getReturn()
     {
-      return $this->return;
+        return $this->return;
     }
 
     /**
@@ -31,8 +32,8 @@ class getDeviceResponse
      */
     public function setReturn($return)
     {
-      $this->return = $return;
-      return $this;
+        $this->return = $return;
+        return $this;
     }
 
 }

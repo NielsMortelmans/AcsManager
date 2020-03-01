@@ -1,4 +1,5 @@
 <?php
+
 namespace Nmo\AcsManager\Types;
 
 class entry
@@ -20,8 +21,8 @@ class entry
      */
     public function __construct($key, $value)
     {
-      $this->key = $key;
-      $this->value = $value;
+        $this->key = $key;
+        $this->value = $value;
     }
 
     /**
@@ -29,7 +30,7 @@ class entry
      */
     public function getKey()
     {
-      return $this->key;
+        return $this->key;
     }
 
     /**
@@ -38,8 +39,8 @@ class entry
      */
     public function setKey($key)
     {
-      $this->key = $key;
-      return $this;
+        $this->key = $key;
+        return $this;
     }
 
     /**
@@ -47,7 +48,7 @@ class entry
      */
     public function getValue()
     {
-      return $this->value;
+        return $this->value;
     }
 
     /**
@@ -56,8 +57,8 @@ class entry
      */
     public function setValue($value)
     {
-      $this->value = $value;
-      return $this;
+        $this->value = $value;
+        return $this;
     }
 
 }

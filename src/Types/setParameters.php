@@ -21,8 +21,8 @@ class setParameters
      */
     public function __construct($deviceIdentity, $parametersMap)
     {
-      $this->deviceIdentity = $deviceIdentity;
-      $this->parametersMap = $parametersMap;
+        $this->deviceIdentity = $deviceIdentity;
+        $this->parametersMap = $parametersMap;
     }
 
     /**
@@ -30,7 +30,7 @@ class setParameters
      */
     public function getDeviceIdentity()
     {
-      return $this->deviceIdentity;
+        return $this->deviceIdentity;
     }
 
     /**
@@ -39,8 +39,8 @@ class setParameters
      */
     public function setDeviceIdentity($deviceIdentity)
     {
-      $this->deviceIdentity = $deviceIdentity;
-      return $this;
+        $this->deviceIdentity = $deviceIdentity;
+        return $this;
     }
 
     /**
@@ -48,7 +48,7 @@ class setParameters
      */
     public function getParametersMap()
     {
-      return $this->parametersMap;
+        return $this->parametersMap;
     }
 
     /**
@@ -57,8 +57,8 @@ class setParameters
      */
     public function setParametersMap($parametersMap)
     {
-      $this->parametersMap = $parametersMap;
-      return $this;
+        $this->parametersMap = $parametersMap;
+        return $this;
     }
 
 }

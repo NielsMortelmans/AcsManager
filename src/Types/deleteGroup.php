@@ -15,7 +15,7 @@ class deleteGroup
      */
     public function __construct($groupName)
     {
-      $this->groupName = $groupName;
+        $this->groupName = $groupName;
     }
 
     /**
@@ -23,7 +23,7 @@ class deleteGroup
      */
     public function getGroupName()
     {
-      return $this->groupName;
+        return $this->groupName;
     }
 
     /**
@@ -32,8 +32,8 @@ class deleteGroup
      */
     public function setGroupName($groupName)
     {
-      $this->groupName = $groupName;
-      return $this;
+        $this->groupName = $groupName;
+        return $this;
     }
 
 }

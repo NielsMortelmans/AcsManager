@@ -1,4 +1,5 @@
 <?php
+
 namespace Nmo\AcsManager\Types;
 
 class getTaskStatus
@@ -14,7 +15,7 @@ class getTaskStatus
      */
     public function __construct($taskId)
     {
-      $this->taskId = $taskId;
+        $this->taskId = $taskId;
     }
 
     /**
@@ -22,7 +23,7 @@ class getTaskStatus
      */
     public function getTaskId()
     {
-      return $this->taskId;
+        return $this->taskId;
     }
 
     /**
@@ -31,8 +32,8 @@ class getTaskStatus
      */
     public function setTaskId($taskId)
     {
-      $this->taskId = $taskId;
-      return $this;
+        $this->taskId = $taskId;
+        return $this;
     }
 
 }
